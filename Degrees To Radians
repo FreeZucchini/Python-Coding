@@ -1,0 +1,13 @@
+def degrees_to_radians(radii):
+
+  print(radii*3.14/180)
+
+  if radii > 360:
+    print("Error Input To High!")
+
+
+def main():
+  x = int(input("Give me a angle from 0-360 degrees"))
+  degrees_to_radians(x)
+
+main()
