@@ -1,0 +1,18 @@
+def celcius_to_fahrenhiet(temp):
+
+  print(temp*1.8+32, "fahrenhiet")
+
+  if temp > 50:
+    print("Hot")
+  
+  if temp < 0:
+    print("Cold")
+  
+  if temp > 0 and temp < 50:
+    print("Warm")
+
+def main():
+  x = int(input("Give me an input of temprature in celcius"))
+  celcius_to_fahrenhiet(x)
+
+main()
