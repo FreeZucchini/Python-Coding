@@ -1,0 +1,36 @@
+a = input("a Give me a number")
+b = input("b Give me another number")
+
+print("a+b = %d" %(a + b))
+print("a-b = %d" %(a - b))  
+print("a*b = %d" %(a * b))  
+print("a/b = %d" %(a / b)) 
+print("a**2 = %d" %(a * a))
+print("a**3 = %d" %(a * a * a))
+print("b**2 = %d" %(b * b))
+print("b**3 = %d" %(b * b * b))
+print("50 percent of a = %d" %(0.5 * float(a)))
+print("50 percent of a = %d" %(0.5 * float(a)))
+print("10 percent of b = %d" %(0.1 * float(a)))
+print("10 percent of b = %d" %(0.1 * float(a)))
+
+
+# x = input("Give me a number")
+# y = input("Give me a operation 1=+  2=-  3=*  4=/")
+# z = input("Give another number")
+
+# if y==5 or 6:
+#   print("Error operation not acceptable")
+
+# if y==1:
+#   a=x+z
+#   print(a)
+# if y==2:
+#   b=x-z
+#   print(b)
+# if y==3:
+#   c=x*z
+#   print(c)
+# if y==4:
+#   w=x/z
+#   print(w)
