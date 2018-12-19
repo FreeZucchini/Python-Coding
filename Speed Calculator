@@ -1,0 +1,13 @@
+def speed_calc(distance, time):
+
+  print(distance/time)
+
+def main():
+
+  x = float(input("What was the distance in kilometres?"))
+
+  y = float(input("What was the time in seconds?"))
+  
+  speed_calc(x, y)
+
+main()
