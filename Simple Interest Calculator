@@ -1,11 +1,11 @@
 def interest(currency, invest, time, rate):
-  print("After", time, "months you would have recieved", (invest*rate*(time/12)), currency, "in interest.")
+  print("After", time, "months you would have recieved", (invest*(rate/100)*(time/12)), currency, "in interest.")
 
 def main():
   w = str(input("What is your currency?"))
   x = float(input("How much are you putting into your bank account?"))
   y = int(input("After how many months would you recieve interest?"))
-  z = float(input("What is your interest rate in decimal?"))
+  z = float(input("What is your interest rate?"))
   
   
   interest(w, x, y, z)
